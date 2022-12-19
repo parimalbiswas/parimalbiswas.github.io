@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parimal's Profile</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      // https://dashboard.emailjs.com/admin/account
+      emailjs.init('j90oeusn7hQqd-HY5');
+    })();
+
+  </script>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-heading">
+      <a href="#"> B </a>
+    </div>
+    <div class="navbar-link">
+      <div><a href="#home">Home</a></div>
+      <div><a href="#about">About</a></div>
+      <div><a href="#skills">Skills</a></div>
+      <div><a href="#Project">Projects</a></div>
+      <div><a href="#statictics">Statistics</a></div>
+      <div><a href="#contact">Contact</a></div>
+      <div id="resdownload"><a Download href="./static/Parimal_Biswas_Resume.pdf" target="_blank">Resume</a></div>
+    </div>
+    <div class="menu-icon" id="menu-icon">
+      <i class="bx bx-menu"></i>
+    </div>
+  </div>
+  <!-- Home -->
+  <div id="home" class="home">
+    <div class="home-text">
+      <h4>Hello</h4>
+      <h1>I'm Parimal Biswas</h1>
+      <h3>Java Backend Developer</h3>
+      <a id="resdownload2" download="" href="./static/Parimal_Biswas_Resume.pdf" target="_blank" class="btn">Download
+        CV</a>
+    </div>
+    <div class="home-img">
+      <img src="./static/parimal.jpg" alt="" />
+    </div>
+  </div>
+
+  <!-- About me -->
+
+  <div id="about" class="about">
+    <div class="about-heading">About Me</div>
+
+    <div class="about-section1">
+      <p>
+        Passionate Backend Developer with a specialization in Java stack.
+
+        I enjoy creating things that live on the internet. My interest in web development started back last year when I
+        was trying to edit things on the web – taught me a lot about HTML & CSS!.
+
+        Fast forwarding to today, I built a of web applications using Java with 2 Major projects. Learned a great deal
+        about teamwork, leadership and communication. After months of rigorous training, here I am looking for an
+        opportunity as a Java Backend developer.
+      </p>
+    </div>
+    <div>
+    </div>
+  </div>
+
+  <!-- Skills -->
+
+  <div>
+    <div class="Skills_container" id="skills">
+      <div class="Skills_heading">Skills &amp; Interests</div>
+      <div class="Skills_aligner">
+        <div>
+          <img src="/static/media/icons8-java-144.png" alt="Java" />
+          <div class="Skills_title">JAVA</div>
+        </div>
+
+        <div>
+          <img src="/static/media/spring-boot-1_5zDxm9B.webp" alt="spring-boot" />
+          <div class="Skills_title">Spring Boot</div>
+        </div>
+        <div class="hybernate">
+          <img src="/static/media/images.png" alt="Java" />
+          <div class="Skills_title">Hibernate</div>
+        </div>
+        <div>
+          <img src="/static/media/icons8-mysql-logo-144.png" alt="MySQL" />
+          <div class="Skills_title">MySQL</div>
+        </div>
+        <div>
+          <img src="/static/media/html_5.e7638e36.svg" alt="HTML" />
+          <div class="Skills_title">HTML</div>
+        </div>
+        <div>
+          <img src="/static/media/icons8-css3-144.png" alt="CSS" />
+          <div class="Skills_title">CSS</div>
+        </div>
+        <div>
+          <img src="/static/media/icons8-javascript-144.png" alt="Javascript" />
+          <div class="Skills_title">Javascript</div>
+        </div>
+
+
+        <div>
+          <img src="/static/media/icons8-github-120.png" alt="Github" />
+          <div class="Skills_title">Github</div>
+        </div>
+        <div>
+          <img
+            src="data:image/png;base64,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"
+            alt="DS &amp; ALgo" />
+          <div class="Skills_title__Phy2q">DS &amp; ALgo</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <!-- project -->
+  <div id="Project">
+    <div class="project-heading">Projects</div>
+    <div class="project-main">
+      <div class="project-section">
+        <div>
+          <img src="/static/111.png" alt="" />
+        </div>
+        <div class="project-body">
+          <div>
+            <p class="project-body-heading">Movie Finder Using OMDB API</p>
+            <p class="project-body-desc">
+              This is a Movie Finder Web App developed using HTML, CSS and JavaScript, Here we fetch the JSON Data from
+              Third-party API ( OMDB API ) and Integrated it into the Web Page using JavaScript DOM Manipulation.
+            </p>
+          </div>
+          <div class="tech-stack">HTML | CSS | JAVASCRIPT</div>
+
+          <div class="project-social">
+            <div class="btn-social">
+              <a href="https://github.com/parimalbiswas/Movie-Finder-App-using-API-" target="_blank">
+                <i class="bx bxl-github"></i>
+                <p>Github</p>
+              </a>
+            </div>
+            <div class="btn-social">
+              <a href="https://project2.parimalbiswas.com/" target="_blank">
+                <i class="bx bx-link-external"></i>
+                <p>Live</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-section">
+        <div>
+          <img src="/static/222.png" alt="" />
+        </div>
+        <div class="project-body">
+          <div>
+            <p class="project-body-heading">H R Management System</p>
+            <p class="project-body-desc">
+              It's a Console-based Application built using Java, MySQL and JDBC technology. This application aims to
+              form a bridge between Employees and HR. HR can track and approve Employees' Leave Applications also.
+            </p>
+          </div>
+          <div class="tech-stack">Java | MySQL | JDBC</div>
+
+          <div class="project-social">
+            <div class="btn-social">
+              <a href="https://github.com/parimalbiswas/Human-Resource-Management-System" target="_blank">
+                <i class="bx bxl-github"></i>
+                <p>Github</p>
+              </a>
+            </div>
+            <div class="btn-social">
+              <a href="https://www.youtube.com/watch?v=JhPDbJaQG4U&feature=youtu.be/" target="_blank">
+                <i class="bx bx-link-external"></i>
+                <p>Live</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-section">
+        <div>
+          <img src="/static/333.png" alt="" />
+        </div>
+        <div class="project-body">
+          <div>
+            <p class="project-body-heading">Online Food Delivery System</p>
+            <p class="project-body-desc">
+              It's an API built using Java, Hibernate and SpringBoot technology, this application aims to form a bridge
+              between restaurants and customers. With functionalities like Sign-In, View Items, add to cart etc.
+            </p>
+          </div>
+          <div class="tech-stack"> Java | Spring Boot</div>
+
+          <div class="project-social">
+            <div class="btn-social">
+              <a href="https://github.com/parimalbiswas/tropical-jellyfish-2222" target="_blank">
+                <i class="bx bxl-github"></i>
+                <p>Github</p>
+              </a>
+            </div>
+            <div class="btn-social">
+              <a href="https://github.com/parimalbiswas/tropical-jellyfish-2222" target="_blank">
+                <i class="bx bx-link-external"></i>
+                <p>Live</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- statictics -->
+
+  <div id="statictics">
+    <div class="static-heading">Statistics</div>
+    <h1>Statistics</h1>
+    <!-- Prepare a container for your calendar. -->
+    <div class="calendar">
+      <!-- Loading stuff -->
+      Loading the data just for you.
+    </div>
+
+    <div id="stats">
+
+
+      <p><img src="https://github-readme-stats.vercel.app/api?username=parimalbiswas&show_icons=true&locale=en"
+          alt="thesharmaa" /></p>
+
+      <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=parimalbiswas&" alt="thesharmaa" /></p>
+    </div>
+
+  </div>
+  <!---contact--->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h2>Contact Me</h2>
+      <h4>Let's Work Together</h4>
+      <p>
+        I am passionate about coding. Love to working with you.
+      </p>
+      <div class="contact-list">
+        <li><a href="#">Kolkata - West Bengal - India</a></li>
+        <li><a href="#">biswasparimal01@gmail.com</a></li>
+        <li><a href="#">+91-8777686325</a></li>
+      </div>
+      <div class="contact-icons">
+        <a href="https://www.linkedin.com/in/parimalbiswas/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/parimalbiswas" target="_blank"><i class="bx bxl-github"></i></a>
+
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <form onsubmit="sendEmail(); reset(); return false;">
+        <input type="text" placeholder="Enter Your Name" id="fullName" required />
+        <input type="email" placeholder="Enter Your Email" required id="email_id" />
+        <input type="" placeholder="Enter Your Subject" id="subject" />
+        <textarea name="" id="message" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+        <input type="submit" value="Submit" class="send" />
+      </form>
+    </div>
+  </section>
+  <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+
+</body>
+
+</html>
+
+<script src="./script/index.js"></script>
+
+
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
+<script>
+  GitHubCalendar(".calendar", "parimalbiswas");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "parimalbiswas", { responsive: true });
+</script>
